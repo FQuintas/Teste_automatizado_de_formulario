@@ -1,0 +1,392 @@
+{
+  "id": "65aae41a-0955-4cbe-8ac6-e0807844b4a9",
+  "version": "2.0",
+  "name": "Teste de formulário",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSfevOn8pTgaFibAu_bNZQEtae1jSm1WmkT8mpklbVN2LOAOGA/viewform?vc=0&c=0&w=1",
+  "tests": [{
+    "id": "5269a4e4-048b-4d7d-a953-cdd06fdbab3b",
+    "name": "Teste 01, teste sem erro",
+    "commands": [{
+      "id": "877f18cc-6e93-4327-ba18-4387eea79fe6",
+      "comment": "",
+      "command": "open",
+      "target": "/forms/d/e/1FAIpQLSfevOn8pTgaFibAu_bNZQEtae1jSm1WmkT8mpklbVN2LOAOGA/viewform?vc=0&c=0&w=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7aa52ba6-077a-42e1-b4e9-f25becb14e67",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1360x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4211044-46b7-4dc2-bb99-fe8e117996be",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.2005620554",
+      "targets": [
+        ["name=entry.2005620554", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(1) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.2005620554']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bf6adaf-19b8-4f88-ba7b-d0bbfbdcfa69",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.2005620554",
+      "targets": [
+        ["name=entry.2005620554", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(1) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.2005620554']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Francisco Lazaro"
+    }, {
+      "id": "182c2bd9-f64d-405e-ac0d-ca8e03a41f9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.freebirdFormviewerViewItemsTextEmail",
+      "targets": [
+        ["css=.freebirdFormviewerViewItemsTextEmail", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3328fb6b-02da-4475-90f1-692d047b7cf9",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.1045781291",
+      "targets": [
+        ["name=entry.1045781291", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(2) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.1045781291']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d59119f-4764-487f-a9ff-407f83ac4222",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.1045781291",
+      "targets": [
+        ["name=entry.1045781291", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(2) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.1045781291']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "franciscodilazaro@gmail.com"
+    }, {
+      "id": "a1f17fb6-3aca-4fbd-8daf-33f55781cacd",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.1065046570",
+      "targets": [
+        ["name=entry.1065046570", "name"],
+        ["css=.isFocused .quantumWizTextinputPapertextareaInput", "css:finder"],
+        ["xpath=//textarea[@name='entry.1065046570']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[3]/div/div[2]/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "807f3801-edfa-48c8-be04-e51cb94df112",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.1065046570",
+      "targets": [
+        ["name=entry.1065046570", "name"],
+        ["css=.isFocused .quantumWizTextinputPapertextareaInput", "css:finder"],
+        ["xpath=//textarea[@name='entry.1065046570']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[3]/div/div[2]/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Minha casa"
+    }, {
+      "id": "d2d5b539-7dbc-4f3b-99c3-c78ec2ef8915",
+      "comment": "",
+      "command": "click",
+      "target": "css=.freebirdFormviewerViewNumberedItemContainer:nth-child(4) > .freebirdFormviewerViewItemsItemItem",
+      "targets": [
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(4) > .freebirdFormviewerViewItemsItemItem", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6a08fee-e3f5-48c8-b0ec-f47eba06951e",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.1166974658",
+      "targets": [
+        ["name=entry.1166974658", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(4) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.1166974658']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[4]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73f5829e-dff1-4079-ab6f-8ae939ce9012",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.1166974658",
+      "targets": [
+        ["name=entry.1166974658", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(4) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.1166974658']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[4]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "02199887755"
+    }, {
+      "id": "d126554d-b337-4783-a405-0f5eb9ba9555",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.839337160",
+      "targets": [
+        ["name=entry.839337160", "name"],
+        ["css=.isFocused .quantumWizTextinputPapertextareaInput", "css:finder"],
+        ["xpath=//textarea[@name='entry.839337160']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[5]/div/div[2]/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div[2]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bafe79ad-e793-4410-abc4-d265b0b6fb21",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.839337160",
+      "targets": [
+        ["name=entry.839337160", "name"],
+        ["css=.isFocused .quantumWizTextinputPapertextareaInput", "css:finder"],
+        ["xpath=//textarea[@name='entry.839337160']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[5]/div/div[2]/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div[2]/textarea", "xpath:position"]
+      ],
+      "value": "Teste Ok"
+    }, {
+      "id": "3b8cd4fc-697f-4def-a538-4fc462374f83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.appsMaterialWizButtonPaperbuttonFilled > .appsMaterialWizButtonPaperbuttonContent",
+      "targets": [
+        ["css=.appsMaterialWizButtonPaperbuttonFilled > .appsMaterialWizButtonPaperbuttonContent", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[3]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f55c2c99-8f35-40e2-8351-7e71a5af63ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.freebirdFormviewerViewResponseConfirmationMessage",
+      "targets": [
+        ["css=.freebirdFormviewerViewResponseConfirmationMessage", "css:finder"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f7a6d20-8372-4ff1-80d8-5fb70f56a49d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.freebirdFormviewerViewResponseConfirmationMessage",
+      "targets": [
+        ["css=.freebirdFormviewerViewResponseConfirmationMessage", "css:finder"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": "Thanks for submitting your contact info!"
+    }]
+  }, {
+    "id": "44921c9c-eb53-4286-b701-f197718feb46",
+    "name": "Teste 02, tese com erro de preenchimento obrigatório",
+    "commands": [{
+      "id": "37259d5f-12ce-425e-9e7f-438f1fd75d10",
+      "comment": "",
+      "command": "open",
+      "target": "https://docs.google.com/forms/d/e/1FAIpQLSfevOn8pTgaFibAu_bNZQEtae1jSm1WmkT8mpklbVN2LOAOGA/viewform?vc=0&c=0&w=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64e186df-162f-4b45-bff6-e3ef8c74f751",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1360x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb742fd6-a63b-4630-9237-ed9d220495d0",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.2005620554",
+      "targets": [
+        ["name=entry.2005620554", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(1) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.2005620554']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bfd6cb9-383d-4357-9fdb-12b88bf9670c",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.2005620554",
+      "targets": [
+        ["name=entry.2005620554", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(1) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.2005620554']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "francisco di lazaro"
+    }, {
+      "id": "a22d8595-bbac-4565-8acb-6b398773a2f2",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.1065046570",
+      "targets": [
+        ["name=entry.1065046570", "name"],
+        ["css=.isFocused .quantumWizTextinputPapertextareaInput", "css:finder"],
+        ["xpath=//textarea[@name='entry.1065046570']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[3]/div/div[2]/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4007c7c-bf39-462c-8f9e-f8dd2b0733d2",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.1065046570",
+      "targets": [
+        ["name=entry.1065046570", "name"],
+        ["css=.isFocused .quantumWizTextinputPapertextareaInput", "css:finder"],
+        ["xpath=//textarea[@name='entry.1065046570']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[3]/div/div[2]/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82e3bd66-18bf-4b6a-ba42-fd9cd7732a2d",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.1065046570",
+      "targets": [
+        ["name=entry.1065046570", "name"],
+        ["css=.isFocused .quantumWizTextinputPapertextareaInput", "css:finder"],
+        ["xpath=//textarea[@name='entry.1065046570']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[3]/div/div[2]/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "minha casa"
+    }, {
+      "id": "15ed69e0-a32a-461b-ac82-d0543f79c394",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.1166974658",
+      "targets": [
+        ["name=entry.1166974658", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(4) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.1166974658']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[4]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edae7e76-6bc9-4876-b8f1-e729cfb78975",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.1166974658",
+      "targets": [
+        ["name=entry.1166974658", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(4) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.1166974658']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[4]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "21999885544"
+    }, {
+      "id": "245c3256-615e-40d8-90ad-a5bf85baba4b",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.839337160",
+      "targets": [
+        ["name=entry.839337160", "name"],
+        ["css=.isFocused .quantumWizTextinputPapertextareaInput", "css:finder"],
+        ["xpath=//textarea[@name='entry.839337160']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[5]/div/div[2]/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div[2]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba6b57f9-66fd-4b78-9acb-d3d2177c77e8",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.839337160",
+      "targets": [
+        ["name=entry.839337160", "name"],
+        ["css=.isFocused .quantumWizTextinputPapertextareaInput", "css:finder"],
+        ["xpath=//textarea[@name='entry.839337160']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[5]/div/div[2]/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div[2]/textarea", "xpath:position"]
+      ],
+      "value": "teste com erro"
+    }, {
+      "id": "6824c335-2f65-46b4-a0da-bf48fe7213e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.appsMaterialWizButtonPaperbuttonFilled > .appsMaterialWizButtonPaperbuttonContent",
+      "targets": [
+        ["css=.appsMaterialWizButtonPaperbuttonFilled > .appsMaterialWizButtonPaperbuttonContent", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[3]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a525600-435d-42de-9af7-eaf66e624ed0",
+      "comment": "",
+      "command": "click",
+      "target": "id=i.err.227649005",
+      "targets": [
+        ["id=i.err.227649005", "id"],
+        ["css=#i\\.err\\.227649005", "css:finder"],
+        ["xpath=//div[@id='i.err.227649005']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[2]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f823076-8468-482a-90aa-adccffffb45e",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=i.err.227649005",
+      "targets": [
+        ["id=i.err.227649005", "id"],
+        ["css=#i\\.err\\.227649005", "css:finder"],
+        ["xpath=//div[@id='i.err.227649005']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[2]/div[2]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": " Esta pergunta é obrigatória"
+    }]
+  }],
+  "suites": [{
+    "id": "5c52d141-e812-470d-93fa-348eb0afcf98",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5269a4e4-048b-4d7d-a953-cdd06fdbab3b"]
+  }],
+  "urls": ["https://docs.google.com/", "https://docs.google.com/forms/d/e/1FAIpQLSfevOn8pTgaFibAu_bNZQEtae1jSm1WmkT8mpklbVN2LOAOGA/viewform?vc=0&c=0&w=1"],
+  "plugins": []
+}
